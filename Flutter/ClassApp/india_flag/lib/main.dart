@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("Indian Flag"),
+          title: const Text("--* Indian Flag *--"),
           centerTitle: true,
           backgroundColor: Colors.blue,
         ),
@@ -39,8 +39,8 @@ class MyApp extends StatelessWidget {
                     width: 200,
                     height: 50,
                     color: Colors.white,
-                    child: 
-                    Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQwgNtoF6hBeavlbQu7z5RVkKuoodQki4oVA&s"),
+                    child: Image.network(
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQwgNtoF6hBeavlbQu7z5RVkKuoodQki4oVA&s"),
                   ),
                   Container(
                     width: 200,
